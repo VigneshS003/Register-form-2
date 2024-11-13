@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: teal;
+}
+.container {
+  margin: auto;
+  width: 25%;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  cursor: pointer;
+}
+.name,
+.mail,
+.password {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 0px 0;
+  display: inline-block;
+  border: solid #ddd 3px;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+.name:focus,
+.mail:focus,
+.password:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.error {
+  border-color: red;
+}
+.success {
+  border-color: green;
+}
+.Valid {
+  font-size: 0.7rem;
+  line-height: 1;
+  font-weight: 700;
+  visibility: hidden;
+}
+.v_error {
+  visibility: visible;
+  color: red;
+}
+.v_success {
+  visibility: visible;
+  color: green;
+}
+.register {
+  background-color: teal;
+  color: white;
+  padding: 12px;
+  border: solid teal 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+  margin-left: 70px;
+  opacity: 0.8;
+  text-align: center;
+}
+.register:hover {
+  opacity: 1;
+}

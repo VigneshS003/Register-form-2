@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="from">
+    <title>form</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+    <form action="" id="user_from">
+        <h1>Register</h1>
+        <div class="container">
+            <!-- <p>Please fill in this to register with us</p> -->
+            <!-- <hr> -->
+            <div class="form-control">
+                <label for="fname">First Name</label>
+                <input class="name" type="text" placeholder="First Name" name="fname" id="fname" required>
+                <span class="Valid">first name</span>
+            </div>
+
+            <div class="form_control">
+                <label for="lname">Last Name</label>
+                <input class="name" type="text" placeholder="Last Name" name="lname" id="lname" required>
+                <span class="Valid">last name</span>
+            </div>
+
+            <div class="form_control">
+                <label for="number">Gmail</label>
+                <input class="mail" type="text" placeholder="Mail" name="mail" id="mail" required>
+                <span class="Valid">Enter Valid email</span>
+            </div>
+
+            <div class="form_control">
+                <label for="pass">Password</label>
+                <input class="password" type="password" placeholder="Enter-Password" name="pass" id="pass" required>
+                <span class="Valid">password</span>
+            </div>
+
+            <div class="form_control">
+                <label for="repass">Re-Enter-Password</label>
+                <input class="password" type="password" placeholder="Re-Enter-Password" name="repass" id="repass"
+                    required>
+                <span class="Valid">confirm password</span>
+            </div>
+            <hr>
+            <button class="register" type="submit" id="submit" onclick="from_register()">Submit</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
